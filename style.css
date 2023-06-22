@@ -1,0 +1,79 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+#mini-logo {
+    width: 55px;
+}
+
+body {
+    margin: 0px;
+    background-color: rgb(245, 245, 242);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.568);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+nav a {
+    padding-right: 7px;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(177, 174, 174);
+}
+
+nav {
+    margin-top: 5px;
+}
+
+nav a:hover {
+    color: white;
+}
+
+#mini-logo {
+    display: none;
+}
+
+#inicio {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.20),
+        rgba(0, 0, 0, 0.20)
+),
+    url(/Vintage/inicio/IMG_20230621_182926641-01.jpeg);
+    background-position: center center;
+    background-size: cover;
+    color: white;
+    border-bottom-right-radius: 160px;
+    border-bottom-left-radius: 160px;
+}
+
+#Taller {
+    width: 250px;
+    
+}
+
+.bienvenida {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 120px;
+    padding-top: 100px;
+}
+
+.somos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.somos p {
+    text-align: center;
+}
